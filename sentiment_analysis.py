@@ -1,12 +1,11 @@
 """
-15-110 Hw6 - Social Media Analytics Project
+Social Media Analytics Project
 Name: Connor Hyatt
-AndrewID: cjhyatt
 """
 
 import sentiment_tests as test
 
-project = "Social" # don't edit this
+project = "Social"
 
 ### SECTION 1 ###
 
@@ -430,18 +429,18 @@ def scatterPlot(xValues, yValues, labels, title):
 
 # This code runs the test cases to check your work
 if __name__ == "__main__":
-    '''
+    
     print("\n" + "#"*15 + " SECTION 1 TESTS " +  "#" * 16 + "\n")
     test.section1Tests()
     print("\n" + "#"*15 + " SECTION 1 OUTPUT " + "#" * 15 + "\n")
     test.runSection1()
-    '''
+    
 
     ## Uncomment these for SECTION 2 ##
-    '''print("\n" + "#"*15 + " SECTION 2 TESTS " +  "#" * 16 + "\n")
+    print("\n" + "#"*15 + " SECTION 2 TESTS " +  "#" * 16 + "\n")
     test.section2Tests()
     print("\n" + "#"*15 + " SECTION 2 OUTPUT " + "#" * 15 + "\n")
-    test.runSection2()'''
+    test.runSection2()
 
     ## Uncomment these for SECTION 3 ##
     print("\n" + "#"*15 + " SECTION 3 OUTPUT " + "#" * 15 + "\n")
